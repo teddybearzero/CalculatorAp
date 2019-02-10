@@ -10,8 +10,8 @@ import java.util.Scanner;
 
 abstract public class CalculatorApp {
 
-    public static Scanner input = new Scanner(System.in);
-    public static Menu menu = new CalculatorMenu();
+    private static Scanner input = new Scanner(System.in);
+    private static Menu menu = new CalculatorMenu();
     public static Calculator cal = new Calculator();
     public static String operator;
     public static int result = 0;

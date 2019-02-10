@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04070413-bba1-4a19-8062-040e3832808d" name="Default Changelist" comment="" />
+    <list default="true" id="04070413-bba1-4a19-8062-040e3832808d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/resilientplc/calculator/task/CalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resilientplc/calculator/task/CalculatorApp.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,43 +11,73 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="717629828">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/CalculatorMainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/CalculatorApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="89" column="74" lean-forward="true" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            <state relative-caret-position="360">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3524#3525#0" expanded="true" />
+                <element signature="e#3558#3559#0" expanded="true" />
+                <element signature="e#3595#3596#0" expanded="true" />
+                <element signature="e#3630#3631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/menu/CalculatorMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/menu/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -68,7 +100,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="C:/" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/Tasks/TaskOne.java" />
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/CalculatorApplication.java" />
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/menu/CalculatorMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/task/CalculatorApp.java" />
         <option value="$PROJECT_DIR$/src/tests/TestCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/calculation/Calculator.java" />
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/menu/Menu.java" />
@@ -104,14 +135,14 @@
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskThree.java" />
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/CalculatorMainApplication.java" />
         <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskTwo.java" />
+        <option value="$PROJECT_DIR$/src/com/resilientplc/calculator/task/CalculatorApp.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="245" />
-    <option name="y" value="118" />
-    <option name="width" value="2238" />
-    <option name="height" value="1382" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -119,64 +150,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorAp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorAp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorAp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorAp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorAp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorAp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorAp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorAp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
               <item name="calculation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorAp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorAp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
               <item name="exceptionHandling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorAp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorAp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
+              <item name="CalculatorAp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorAp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CalculatorApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CalculatorApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +265,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestCalculator" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -348,10 +373,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="245" y="118" width="2238" height="1382" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15472911" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,7 +393,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32780084" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50373137" side_tool="true" weight="0.2780083" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32883817" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49626866" weight="0.2576" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49626866" visible="true" weight="0.25698325" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,28 +442,9 @@
     <entry file="file://$PROJECT_DIR$/out/production/CalculatorApp/com/resilientplc/calculator/Calculator.class" />
     <entry file="file://$PROJECT_DIR$/src/Interfaces/CreateMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/Interfaces/Command.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/NumberFormatException.java" />
     <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/ExceptionHandling/StringInputException.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/menu/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/exceptionHandling/OperatorInputException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -470,54 +476,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/menu/CalculatorMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskThree.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/CalculatorMainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="89" column="74" lean-forward="true" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2735#2736#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#3179#3180#0" expanded="true" />
+            <element signature="e#3213#3214#0" expanded="true" />
+            <element signature="e#3250#3251#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/menu/CalculatorMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/CalculatorApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="360">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/task/TaskOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        <state relative-caret-position="161">
+          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3524#3525#0" expanded="true" />
+            <element signature="e#3558#3559#0" expanded="true" />
+            <element signature="e#3595#3596#0" expanded="true" />
+            <element signature="e#3630#3631#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/resilientplc/calculator/CalculatorMainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
