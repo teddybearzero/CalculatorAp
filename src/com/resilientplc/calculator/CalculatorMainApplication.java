@@ -1,37 +1,32 @@
 package com.resilientplc.calculator;
 
-import com.resilientplc.calculator.menu.Menu;
-import com.resilientplc.calculator.menu.CalculatorMenu;
-import com.resilientplc.calculator.task.CalculatorApp;
 import com.resilientplc.calculator.task.TaskOne;
-import com.resilientplc.calculator.task.TaskTwo;
+
+import java.util.Scanner;
+
 
 public class CalculatorMainApplication {
 
+    private static Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) {
 
-        boolean running = true;
+        TaskOne a = new TaskOne();
 
-        CalculatorApp taskOne = new TaskOne();
-        CalculatorApp taskTwo = new TaskTwo();
-        Menu menu = new CalculatorMenu();
+        System.out.print("\nPlease enter your First number: ");
+        a.setFirstNumber(input);
 
-        while (running) {
+        System.out.print("\nPlease enter the math Operator: ");
+        a.setMathOperator(input);
 
-            showMenu(menu);
+        System.out.print("\nPlease enter your Second number: ");
+        a.setSecondNumber(input);
 
-            show(taskOne);
-            show(taskTwo);
-        }
+        a.setResult();
+
+        System.out.print("\nThe Result is: " + a.getResult());
+
     }
-
-    public static void show(CalculatorApp obj)
-    {
-        obj.showQuestion();
-    }
-    public static void showMenu(Menu obj){obj.createMenu();}
-
-
 }
 
 

@@ -8,7 +8,7 @@ public class TaskTwo extends CalculatorApp {
     private int secondNumber;
 
     private String menuSelection = "";
-
+/*
     @Override
     public void showQuestion() {
 
@@ -149,5 +149,5 @@ public class TaskTwo extends CalculatorApp {
         }
         return result;
     }
-
+*/
 }

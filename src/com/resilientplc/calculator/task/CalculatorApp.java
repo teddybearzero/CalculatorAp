@@ -3,12 +3,11 @@ package com.resilientplc.calculator.task;
 
 import com.resilientplc.calculator.menu.Menu;
 import com.resilientplc.calculator.calculation.Calculator;
-import com.resilientplc.calculator.exceptionHandling.OperatorInputException;
 import com.resilientplc.calculator.menu.CalculatorMenu;
 
 import java.util.Scanner;
 
-abstract public class CalculatorApp {
+public class CalculatorApp {
 
     private static Scanner input = new Scanner(System.in);
     private static Menu menu = new CalculatorMenu();
@@ -16,11 +15,11 @@ abstract public class CalculatorApp {
     public static String operator;
     public static int result = 0;
 
-    public abstract void showQuestion();
+ //   public abstract void showQuestion();
 
-    public abstract void checkMenuSelectionInput();
+ //   public abstract void checkMenuSelectionInput();
 
-    public abstract void setOperator() throws OperatorInputException;
+ //   public abstract void setOperator() throws OperatorInputException;
 
     public String getOperator() {
         return operator;
