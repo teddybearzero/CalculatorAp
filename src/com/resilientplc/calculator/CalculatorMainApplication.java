@@ -17,29 +17,32 @@ public class CalculatorMainApplication {
 
     static private void TaskOne()
     {
-        TaskOne a = new TaskOne();
+        TaskOne t1 = new TaskOne();
 
         System.out.print("\nPlease enter your First number: ");
-        a.setFirstNumber(input);
+        t1.setFirstNumber(input);
 
         System.out.print("\nPlease enter the math Operator: ");
-        a.setMathOperator(input);
+        t1.setMathOperator(input);
 
         System.out.print("\nPlease enter your Second number: ");
-        a.setSecondNumber(input);
+        t1.setSecondNumber(input);
 
-        a.setResult();
+        t1.setResult();
 
-        System.out.print("\nThe Result is: " + a.getResult());
+        System.out.print("\nThe Result is: " + t1.getResult() + "\n");
     }
 
     static private void TaskTwo()
     {
-        TaskTwo b = new TaskTwo();
+        TaskTwo t2 = new TaskTwo();
 
-        System.out.print("\nPlease enter a full Mathmatical expression\n");
-        b.setExpression(input);
+        System.out.print("\nPlease enter a full Mathematical expression\n");
+        t2.setExpression(input);
 
+        //t2.setResult();
+
+        //System.out.print("The Result is: " + t2.getResult());
 
     }
 

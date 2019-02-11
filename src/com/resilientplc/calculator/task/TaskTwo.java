@@ -2,11 +2,11 @@ package com.resilientplc.calculator.task;
 
 import java.util.Scanner;
 
-public class TaskTwo extends TaskOne {
+public class TaskTwo {
 
+    String[] expression;
     private String fullString;
-    private int x;
-    private int y;
+    private String delimiter;
 
     public TaskTwo() {
         System.out.print("\n********* Task 2 **********\n");
@@ -17,7 +17,11 @@ public class TaskTwo extends TaskOne {
     }
 
     public void setExpression(Scanner input) {
-        fullString = input.nextLine();
+        fullString = input.next();
+    }
+
+    public void setDelimiter() {
+        delimiter = getDelimiter(getExpression());
     }
 
     // Required to split the string
@@ -36,7 +40,7 @@ public class TaskTwo extends TaskOne {
         return str;
     }
 
-    private String[] splitString(String string, String delimiter) {
+    public String[] splitString(String string, String delimiter) {
 
         String[] result = string.split(delimiter);
 
@@ -50,7 +54,7 @@ public class TaskTwo extends TaskOne {
     }
 
     // Finds the operator the user entered
-    public String findOperator(String str) {
+    public String findMathOperator(String str) {
         if (str.contains("+")) {
             str = "+";
         } else if (str.contains("-")) {
@@ -64,45 +68,19 @@ public class TaskTwo extends TaskOne {
         return str;
     }
 
+    void setExpression(String fullExpression, String delimiter) {
 /*
-    @Override
-    public void showQuestion() {
-
-        String[] expression;
-        String delimiter;
-
-
-        System.out.print("\nPlease enter an expression of type number operator number\n");
-
-        try {
-            setExpression();
-
-        } catch (Exception e) {
-            System.out.print("Error please !");
-        }
-
-        delimiter = getDelimiter(getExpression());
-        expression = splitString(fullExpression, delimiter);
-
-        setOperator();
-
         int array_length = expression.length;
 
         for (int i = 0; i < array_length; i++) {
             if (i == 0) {
-                firstNumber = Integer.parseInt(expression[i]);
+                x = Integer.parseInt(expression[i]);
             }
             if (i == 1) {
-                secondNumber = Integer.parseInt(expression[i]);
+                y = Integer.parseInt(expression[i]);
             }
         }
-
-        result = setResult();
-
-        // Display the Result
-        System.out.print("\nResult: " + getExpression() + " = " + result + "\n");
+*/
     }
 
-
-*/
 }
