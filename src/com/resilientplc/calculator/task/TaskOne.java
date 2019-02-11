@@ -49,7 +49,7 @@ public class TaskOne {
         }
     }
 
-    public int setResult() {
+    public void setResult() {
 
         switch (getMathOperator()) {
             case "+":
@@ -65,8 +65,6 @@ public class TaskOne {
                 result = cal.divide(getFirstNumber(), getSecondNumber());
                 break;
         }
-
-        return result;
     }
 
     public int getResult() {
